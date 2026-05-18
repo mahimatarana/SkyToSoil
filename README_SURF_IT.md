@@ -29,8 +29,8 @@ Field Operation → Raw Data Processing → Elevation Correction → Segmentatio
 ## Step 1 — Field Operation
 
 ### Hardware
-- DJI drone with L2 LiDAR sensor
-- RTK base station
+- DJI drone with Zenmuse L2 LiDAR sensor
+- DJI Matrice 350 RTK base station
 - Remote Controller (RC)
 
 ### Pre-flight Checklist
@@ -193,7 +193,6 @@ Uses the four CSV files and the DEM mosaic to compute per-segment embankment sta
 | Script | Purpose |
 |---|---|
 | `DEM_height_correction_manual.R` | SRTM-based and RTK-based elevation correction |
-| `DEM_mosaic_and_gap_fill.R` | DEM mosaicking and NoData filling |
 | `Segment_data_analysis_stat summary.R` | Per-segment embankment statistics |
 
 ---
